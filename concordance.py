@@ -39,7 +39,7 @@ def readInput():
 
 
 
-
+# BuildList() will takes in a list as a parameter and should count word occurrences 
 
 def buildList():
 

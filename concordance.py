@@ -89,6 +89,12 @@ def displayGraphic():
 
 
 def startApp():
+    wordList = readInput() #returns an unsorted wordlist ["word1", "word2", "word3"]
+    sortedCountedList = buildList(wordList) #returns a sorted array with counts [["word1", 10], ["word2", 5], ["word3", 2]]
+    writeListToFile(sortedCountedList)
+
+    displayGraphic(sortedCountedList)
+
     print("working")
 
 if __name__ == "__main__":

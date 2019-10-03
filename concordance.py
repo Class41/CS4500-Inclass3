@@ -8,3 +8,9 @@
 # in the file. (using an unsorted array)
 # --> Sort list into alphabetical order
 # -->
+
+def startApp():
+    print("working")
+
+if __name__ == "__main__":
+    startApp()

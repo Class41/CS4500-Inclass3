@@ -19,6 +19,9 @@
 7. Display bargraph of read in data. Resolve ties (displayGraphic())
 """
 
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
 
 def readInput():
 
@@ -94,8 +97,6 @@ def startApp():
     writeListToFile(sortedCountedList) #writes file to list
 
     displayGraphic(sortedCountedList) #displays graphic
-
-    print("working")
 
 if __name__ == "__main__":
     startApp()
